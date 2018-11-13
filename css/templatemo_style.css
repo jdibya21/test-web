@@ -9,7 +9,7 @@ body {
 	color: #666;
 	font-family: Tahoma, Geneva, sans-serif;
 	font-size: 12px;
-	line-height: 1.5em; 
+	line-height: 1.8em; 
 	background-color: #bdbdbd;
 	background-image: url(../images/templatemo_body.jpg);
 	background-repeat: repeat;
@@ -140,8 +140,8 @@ h6 { font-size: 14px; margin: 0 0 5px; padding: 0; }
 #templatemo_header {
 	width: 780px;
 	height: 80px;
-	padding: 40px 10px 0 10px;
-	background: url(../images/templatemo_header.jpg) no-repeat;
+	padding: 10px 10px 0 10px;
+	background: url(../images/templatemo_header.png) no-repeat;
 }
 
 #site_title { 
