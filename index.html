@@ -7,7 +7,6 @@
 <meta name="description" content="" />
 <link href="css/templatemo_style.css" rel="stylesheet" type="text/css" />
 <link rel="shortcut icon" type="image/x-icon" href="images/title_icon.ico" />
-<script type="text/javascript" id="clustrmaps" src="//cdn.clustrmaps.com/map_v2.js?d=uDTKZcTl055bSiT45euH6B8g8Fj5wSg3C8CjYRUjOZ0&cl=ffffff&w=a"></script>
 </head>
 <body>
 
@@ -272,7 +271,16 @@ software development project. Also, instructed some undergraduate labs (C++, Dat
     <div id="templatemo_footer">
     
         Last Update: Nov 26, 2018
-        
+		
+        <script type="text/javascript">
+			//code to track website visit. ref: https://blog.teamtreehouse.com/learn-asynchronous-image-loading-javascript
+			var image = document.images[0];
+			var downloadingImage = new Image();
+			downloadingImage.onload = function(){
+				image.src = this.src;   
+			};
+			downloadingImage.src = "http://clustrmaps.com/map_v2.js?d=uDTKZcTl055bSiT45euH6B8g8Fj5wSg3C8CjYRUjOZ0&cl=ffffff&w=a";
+		</script>
 	</div>
 	
 </div> <!-- end of wrapper -->
