@@ -167,7 +167,7 @@ h6 { font-size: 14px; margin: 0 0 5px; padding: 0; }
 #templatemo_menu { 
 	float: right; 
 	margin-top: 10px; 
-	width: 400px; 
+	width: 500px; 
 }
 
 #templatemo_menu ul { 
@@ -340,3 +340,14 @@ h6 { font-size: 14px; margin: 0 0 5px; padding: 0; }
 	color: #000;
 	background: url(../images/templatemo_footer.jpg) center top no-repeat;
 }
+
+blockquote {
+border:none;
+font-family:Georgia, "Times New Roman", Times, serif;
+margin-bottom:-30px;
+position: relative; 
+max-width: 500px; 
+    margin: 0 auto; 
+    padding-left: 0.4em; 
+}
+
